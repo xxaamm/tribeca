@@ -79,17 +79,17 @@ var MarketTradeGrid = ($scope: MarketTradeScope,
             { width: 80, field: 'time', displayName: 't', cellFilter: "momentShortDate",
                 sortingAlgorithm: Shared.fastDiff,
                 sort: { direction: uiGridConstants.DESC, priority: 1} },
-            { width: 50, field: 'price', displayName: 'px' },
-            { width: 40, field: 'size', displayName: 'sz' },
+            { width: 60, field: 'price', displayName: 'px' },
+            { width: 50, field: 'size', displayName: 'sz' },
             { width: 40, field: 'make_side', displayName: 'ms' },
             { width: 40, field: 'qBz', displayName: 'qBz' },
-            { width: 50, field: 'qB', displayName: 'qB' },
-            { width: 50, field: 'qA', displayName: 'qA' },
+            { width: 60, field: 'qB', displayName: 'qB' },
+            { width: 60, field: 'qA', displayName: 'qA' },
             { width: 40, field: 'qAz', displayName: 'qAz' },
-            { width: 40, field: 'mBz', displayName: 'mBz' },
-            { width: 50, field: 'mB', displayName: 'mB' },
-            { width: 50, field: 'mA', displayName: 'mA' },
-            { width: 40, field: 'mAz', displayName: 'mAz' }
+            { width: 50, field: 'mBz', displayName: 'mBz' },
+            { width: 60, field: 'mB', displayName: 'mB' },
+            { width: 60, field: 'mA', displayName: 'mA' },
+            { width: 50, field: 'mAz', displayName: 'mAz' }
         ]
     };
 
